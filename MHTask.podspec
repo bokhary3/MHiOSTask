@@ -63,6 +63,9 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/bokhary3/MHiOSTask.git", :tag => "#{spec.version}" }
 
+  spec.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MHTask/"' }
+  spec.source_files = 'MoneyHashTask.xcframework/ios-arm64/MoneyHashTask.framework/Headers/*.{h}'
+
   spec.ios.deployment_target = "13.0"
   spec.requires_arc = true
   spec.ios.vendored_frameworks = 'MoneyHashTask.xcframework'
