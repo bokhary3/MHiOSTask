@@ -68,8 +68,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "13.0"
   spec.requires_arc = true
-  spec.ios.vendored_frameworks = 'MHiOSTask/MoneyHashTask.xcframework'
-  spec.vendored_frameworks = 'MHiOSTask/MoneyHashTask.xcframework'
+  spec.ios.vendored_frameworks = 'MoneyHashTask.xcframework'
+  spec.vendored_frameworks = 'MoneyHashTask.xcframework'
 
 end
-/Users/elsayedhussein/Desktop/MHTask/MHiOSTask/MoneyHashTask.xcframework
