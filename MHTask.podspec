@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MHTask"
-  spec.version      = "1.1.0"
+  spec.version      = "1.3.0"
   spec.summary      = "MoneyHash task."
 
   # This description is used to generate tags and improve search results.
@@ -72,3 +72,4 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'MHiOSTask/MoneyHashTask.xcframework'
 
 end
+/Users/elsayedhussein/Desktop/MHTask/MHiOSTask/MoneyHashTask.xcframework
