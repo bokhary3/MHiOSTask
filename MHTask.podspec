@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MHTask"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "MoneyHash task."
 
   # This description is used to generate tags and improve search results.
@@ -64,11 +64,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/bokhary3/MHiOSTask.git", :tag => "#{spec.version}" }
 
   spec.xcconfig     =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/MHTask/"' }
-  spec.source_files = 'MoneyHashTask.xcframework/ios-arm64/MoneyHashTask.framework/Headers/*.{h}'
+  # spec.source_files = 'MHiOSTask/MoneyHashTask.xcframework/ios-arm64/MoneyHashTask.framework/Headers/*.{h}'
 
   spec.ios.deployment_target = "13.0"
   spec.requires_arc = true
-  spec.ios.vendored_frameworks = 'MoneyHashTask.xcframework'
-  spec.vendored_frameworks = 'MoneyHashTask.xcframework'
+  spec.ios.vendored_frameworks = 'MHiOSTask/MoneyHashTask.xcframework'
+  spec.vendored_frameworks = 'MHiOSTask/MoneyHashTask.xcframework'
 
 end
